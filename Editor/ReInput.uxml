@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Button text="Save Json" display-tooltip-when-elided="true" name="button-saveJson" />
+    <ui:GroupBox name="groupbox-recording" style="flex-direction: row; flex-wrap: wrap; height: 90px;">
+        <ui:Button text="Start Recording" display-tooltip-when-elided="true" name="button-startRecording" style="height: 22px; width: 230px; max-width: 50%; max-height: none; min-width: auto; min-height: auto;" />
+        <ui:Button text="Stop Recording" display-tooltip-when-elided="true" name="button-stopRecording" style="height: 23px; width: 230px; max-width: 50%; max-height: none; min-width: auto; min-height: auto;" />
+        <ui:Toggle label="Auto Recording when Editor Play" name="toggle-autoRecoding" style="height: 20px; flex-direction: row-reverse; width: 230px; align-items: auto;" />
+    </ui:GroupBox>
+    <ui:GroupBox name="groupbox-reinput" style="flex-direction: row; flex-wrap: wrap; height: 90px;">
+        <ui:Button text="Start ReInput" display-tooltip-when-elided="true" name="button-startReInput" style="height: 22px; width: 230px; max-width: 50%; max-height: none; min-width: auto; min-height: auto;" />
+        <ui:Button text="Stop ReInput" display-tooltip-when-elided="true" name="button-stopReInput" style="height: 23px; width: 230px; max-width: 50%; max-height: none; min-width: auto; min-height: auto;" />
+    </ui:GroupBox>
+</ui:UXML>

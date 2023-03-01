@@ -1,0 +1,16 @@
+{
+    "name": "bridgedev.reinput.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a67cda91f9cda374bb01d84f25941064"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

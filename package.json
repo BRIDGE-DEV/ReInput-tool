@@ -1,0 +1,15 @@
+{
+  "name": "com.bridgedev.reinput",
+  "version": "0.1.0",
+  "displayName": "reinput",
+  "description": "Replay the keyboard input that you entered.\n\nWindow -> ReInput",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "keywords": [
+    "RePlay",
+    "KeyBoardSaver",
+    "ReInput"
+  ]
+}
